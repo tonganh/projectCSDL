@@ -1,0 +1,108 @@
+/* Employees CSS */
+
+.dashBoardTitle {
+    background: #0e17c7;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    padding: 0 1em 0 1em;
+    justify-content: space-between;
+}
+  .topProject {
+    /* margin-left: 40px; */
+    /* font-family: "Fjalla One", sans-serif; */
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  .listSelectAdmin {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* flex: 1; */
+    height: 22em;
+    position: fixed;
+    top: 8em;
+}
+  .projectTitle {
+    background: #0e17c7;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    padding-left: 4vh;
+  }
+  
+  .row .FirstColumnInEmployee {
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.32;
+    letter-spacing: normal;
+    text-align: left;
+    border-top: solid 1px #707070;
+    border-bottom: 0px;
+    background-color: #f2f2f2;
+    /* height: 93vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .row .maintainEmployee {
+    border: solid 1px #707070;
+    padding-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  .maintainEmployee .buttonDashBoard {
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    font-size: 2em;
+  }
+  .FirstColumnInEmployee .link-Employees {
+    color: blue;
+  }
+  .edit-Employee {
+    margin-right: 10px;
+  }
+  .row-header {
+    font-size: 20px;
+    background-color: #f2f2f2;
+  }
+  .row-employees {
+    font-size: 20px;
+  }
+  .row .search-header{
+    width: 60%;
+  }
+  .row-employees ._button-edit {
+    margin-right: 2em;
+    font-size: 25px;
+  }
+  .row-employees ._button-delete, .modal-foorter .btn-primary {
+    font-size: 25px;
+  }
+  .form-group .form-label {
+    font-size: 1.5em;
+  }
+  .form-group .form-control{
+    font-size: 1.5em;
+  }
+  .input-group .input-search {
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+  .input-group .button-search {
+    width: 7rem;
+  }
+  .linkNormal{
+    color: black;
+  }
